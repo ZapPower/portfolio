@@ -1,5 +1,8 @@
 import React from 'react'
 
+// TODO: Make navbar sticky and fix dropdown
+// TODO: Adjust navbar styling so that it fits the theme better
+
 const Navbar = () => {
   return (
     <div className="navbar bg-base-100 p-0 py-5 sticky">
