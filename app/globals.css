@@ -1,21 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Turret+Road:wght@200;300;400;500;700;800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* @layer utilities {
+  .stars {
+    background: black;
+    background-image: radial-gradient(white 1px, transparent 1px);
+    background-size: 10px 10px;
+    opacity: 0.5;
+    animation: twinkle 5s infinite;
   }
-}
+
+  @keyframes twinkle {
+    0%, 100% {
+      opacity: 0.5;
+    }
+    50% {
+      opacity: 0.7;
+    }
+  }
+} */
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Turret Road';
 }
