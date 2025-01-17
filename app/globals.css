@@ -6,10 +6,10 @@
 
 @keyframes moveAndRotate {
   0% {
-    transform: translateX(-100px) rotate(0deg);
+    transform: translateX(-100px) rotate(var(--initial-rotation, 0deg));
   }
   100% {
-    transform: translateX(calc(100vw + 100px)) rotate(360deg);
+    transform: translateX(calc(100vw + 100px)) rotate(calc(var(--initial-rotation, 0deg) + 360deg));
   }
 }
 
